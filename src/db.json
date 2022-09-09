@@ -21,7 +21,8 @@
               "quantity": 5,
               "price": 2,
               "originalPrice": 5,
-              "weight": "450g"
+              "weight": "450g",
+              "ingredients": "beans, tomato souce, dried meat, salt"
           },
             {
               "id": 2,
@@ -31,7 +32,8 @@
               "quantity": "3",
               "price": 3,
               "originalPrice": 7,
-              "weight": "350g"
+              "weight": "350g",
+              "ingredients": "rice, pickeled cabbage, porc meat, salt, tomato"
           }
         ]
       },
@@ -56,7 +58,8 @@
               "quantity": "2",
               "price": 2,
               "originalPrice": 7,
-              "weight": "350g"
+              "weight": "350g",
+              "ingredients": "fish, salt, flour, pepper"
           },
            {
               "id": 2,
@@ -66,7 +69,8 @@
               "quantity": "3",
               "price": 2,
               "originalPrice": 4,
-              "weight": "150g"
+              "weight": "150g",
+              "ingredients": "pottato, salt"
           },
                    {
               "id": 3,
@@ -76,7 +80,8 @@
               "quantity": "2",
               "price": 2,
               "originalPrice": 6,
-              "weight": "400g"
+              "weight": "400g",
+              "ingredients": "chicken, salt, flour"
           }
         ]
       },
@@ -93,7 +98,7 @@
         "logo": "la-casa/logo-la-casa.png",
         "images": "",
         "products" : [
-                    {
+        {
               "id": 1,
               "name": "Ham Sandwich",
               "image": "la-casa/la-casa-sandwich-cu-sunca.jpeg",
@@ -101,7 +106,8 @@
               "quantity": "3",
               "price": 3,
               "originalPrice": 7,
-              "weight": "450g"
+              "weight": "450g",
+              "ingredients": "ham, bread, salat, cheese" 
           },
            {
               "id": 2,
@@ -111,9 +117,10 @@
               "quantity": "2",
               "price": 3,
               "originalPrice": 8,
-              "weight": "900g"
+              "weight": "900g",
+              "ingredients": "flour, yest, salt"
           },
-                   {
+          {
               "id": 3,
               "name": "Triangle with cheese",
               "image": "la-casa/la-casa-cheese-rolls",
@@ -121,7 +128,8 @@
               "quantity": "3",
               "price": 1,
               "originalPrice": 2,
-              "weight": "200g"
+              "weight": "200g",
+              "ingredients": "flour, cheese, eggs"
           }
         ]
       }
