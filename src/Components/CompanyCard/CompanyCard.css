@@ -10,11 +10,11 @@
 }
 
 .card-image {
-  width: 60%;
-  align-self: center;
-  max-height: 140px;
-  text-align: center;
-  height: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 img {
