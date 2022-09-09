@@ -2,7 +2,8 @@ import React from "react";
 import "./CompanyCard.css";
 
 const CompanyCard = ({ company }) => {
-  const { logo, name, address, offerHours } = company;
+  const { logo, name, address, offerHours, id } = company;
+  const onClick = () => {};
   return (
     <div className="card-container">
       <div className="card-image">

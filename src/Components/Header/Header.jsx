@@ -22,7 +22,7 @@ export const Header = () => {
           placeholder="Search for restaurant in Cluj-Napoca"
         />
       </div>
-      <div class="header-actions">
+      <div className="header-actions">
         <img src={Account} alt="account" onClick={onClickAccount} />
         <img src={Cart} alt="cart" />
       </div>

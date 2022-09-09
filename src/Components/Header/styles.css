@@ -1,9 +1,10 @@
 .header-container {
   background-color: #82af9b;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   padding: 36px 30px;
   justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 .header-container h1 {
@@ -11,6 +12,7 @@
   font-weight: bold;
   font-family: "futura";
   color: #fff;
+  margin: 0;
 }
 
 .search-input {
