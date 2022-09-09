@@ -1,0 +1,152 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Memo 10",
+        "address": "Strada Memorandumului 10, Cluj-Napoca 400394",
+        "location": "",
+        "description": "",
+        "phone": "0734881010",
+        "email": "memo10@yahoo.com",
+        "ratings": 5,
+        "offerHours": "20:00-22:00",
+        "logo": "memo-10/logo-memo-10.png",
+        "images": "",
+        "products": [
+          {
+              "id": 1,
+              "name": "Bean soup",
+              "image": "memo-10/memo-ciorba-de-fasole.jpeg",
+              "description": "",
+              "quantity": 5,
+              "price": 2,
+              "originalPrice": 5,
+              "weight": "450g"
+          },
+            {
+              "id": 2,
+              "name": "Cabbage rolls",
+              "image": "memo-10/memo-sarmale.jpeg",
+              "description": "",
+              "quantity": "3",
+              "price": 3,
+              "originalPrice": 7,
+              "weight": "350g"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "McDonald's",
+        "address": "Strada Primaverii 74, Cluj-Napoca 400536",
+        "location": "",
+        "description": "",
+        "phone": "0372700857",
+        "email": "mcDonald@yahoo.com",
+        "ratings": "4",
+        "offerHours": "18:00-22:00",
+        "logo": "mcdonalds/logo-mcdonalds.png",
+        "images": "",
+        "products": [
+            {
+              "id": 1,
+              "name": "Filet-O-Fish",
+              "image": "mcdonalds/mcdonalds-fish-fillet.png",
+              "description": "",
+              "quantity": "2",
+              "price": 2,
+              "originalPrice": 7,
+              "weight": "350g"
+          },
+           {
+              "id": 2,
+              "name": "French Fries",
+              "image": "mcdonalds/mcdonalds-chicken-fries.png",
+              "description": "",
+              "quantity": "3",
+              "price": 2,
+              "originalPrice": 4,
+              "weight": "150g"
+          },
+                   {
+              "id": 3,
+              "name": "Chicken Nuggets",
+              "image": "mcdonalds/mcdonalds-chicken-nuggets.png",
+              "description": "",
+              "quantity": "2",
+              "price": 2,
+              "originalPrice": 6,
+              "weight": "400g"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "La casa",
+        "address": "Strada Fabricii 4, Cluj-Napoca 400394",
+        "location": "",
+        "description": "",
+        "phone": "0364140820",
+        "email": "",
+        "ratings": "4",
+        "offerHours": "18:00-20:00",
+        "logo": "la-casa/logo-la-casa.png",
+        "images": "",
+        "products" : [
+                    {
+              "id": 1,
+              "name": "Ham Sandwich",
+              "image": "la-casa/la-casa-sandwich-cu-sunca.jpeg",
+              "description": "",
+              "quantity": "3",
+              "price": 3,
+              "originalPrice": 7,
+              "weight": "450g"
+          },
+           {
+              "id": 2,
+              "name": "Rustic Bread",
+              "image": "la-casa/la-casa-bread.jpeg",
+              "description": "",
+              "quantity": "2",
+              "price": 3,
+              "originalPrice": 8,
+              "weight": "900g"
+          },
+                   {
+              "id": 3,
+              "name": "Triangle with cheese",
+              "image": "la-casa/la-casa-cheese-rolls",
+              "description": "",
+              "quantity": "3",
+              "price": 1,
+              "originalPrice": 2,
+              "weight": "200g"
+          }
+        ]
+      }
+    ],
+    "users":[
+      {
+          "id": 1,
+          "name": "Vasile Ion",
+          "password": "CevaPassword",
+          "email": "vasile.ion@gmail.com",
+          "phone": "077337373"
+      },
+      {
+          "id": 2,
+          "name": "Vasile Ion",
+          "password": "CevaPassword",
+          "email": "vasile.ion@gmail.com",
+          "phone": "077337373"
+      },
+      {
+          "id": 3,
+          "name": "Vasile Ion",
+          "password": "CevaPassword",
+          "email": "vasile.ion@gmail.com",
+          "phone": "077337373"
+      }
+    ]
+}
