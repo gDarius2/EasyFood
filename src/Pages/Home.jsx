@@ -1,7 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import "../App.css";
 import apiService from "../utils/apiService";
 import { Header } from "../Components/Header/Header";
+import CompanyCard from "../Components/CompanyCard/CompanyCard";
+
+import "./Home.css";
 
 export const Home = () => {
   const { data: restaurants, isLoading } = useQuery(
@@ -13,15 +15,10 @@ export const Home = () => {
     <div className="App">
       <Header />
       {isLoading && <div>Loading...</div>}
-      {restaurants && (
-        <ul>
-          {restaurants.map((restaurant) => (
-            <li key={restaurant.id}>
-              {restaurant.name} <img src={`/images/${restaurant.logo}`} />
-            </li>
-          ))}
-        </ul>
-      )}
+      <div className="cards-wrapper">
+        {restaurants &&
+          restaurants.map((restaurant) => <CompanyCard company={restaurant} />)}
+      </div>
     </div>
   );
 };
