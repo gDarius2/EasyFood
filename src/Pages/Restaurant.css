@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.company-img {
+    max-width: 500px;
+}
+
 .products-container {
     display: flex;
     flex-wrap: wrap;

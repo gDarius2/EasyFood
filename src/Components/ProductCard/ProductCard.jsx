@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="product-card-container">
       <div className="product-card-image">
-        <img src={`/images/${image}`} alt={name} />
+        <img className="product-image" src={`/images/${image}`} alt={name} />
       </div>
       <div className="product-card-body">
         <div className="card-name-and-button">
