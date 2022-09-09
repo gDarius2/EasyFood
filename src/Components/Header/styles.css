@@ -4,6 +4,7 @@
   display: flex;
   padding: 36px 30px;
   justify-content: space-between;
+  position: relative;
 }
 .header-container h1 {
   font-size: 35px;
@@ -24,8 +25,12 @@
   font-family: "brandon";
 }
 .input-wrapper {
-  position: relative;
+  position: absolute;
   width: 30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .input-wrapper svg {
   position: absolute;
@@ -39,4 +44,5 @@
 .header-actions img {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
