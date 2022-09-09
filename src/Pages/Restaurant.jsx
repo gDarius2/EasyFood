@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import apiService from "../utils/apiService";
 import ProductCard from "../Components/ProductCard/ProductCard";
-import { useParams } from "react-router";
+import { useParams, useNavigate } from "react-router";
 
 import "./Restaurant.css";
 
@@ -13,7 +13,7 @@ const Restaurant = () => {
   );
 
   const params = useParams();
-
+  const navigate = useNavigate();
   console.log(params.id);
 
   const restaurant = restaurants && restaurants[params.id];
@@ -22,6 +22,14 @@ const Restaurant = () => {
 
   return (
     <div className="company-products-container">
+      <button
+        className="buttonBack"
+        onClick={() => {
+          navigate("/");
+        }}
+      >
+        {"< Back"}
+      </button>
       <img
         className="company-img"
         src={`/images/${restaurant && restaurant.logo}`}

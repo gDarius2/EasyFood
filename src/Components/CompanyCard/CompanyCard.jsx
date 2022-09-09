@@ -23,7 +23,7 @@ const CompanyCard = ({ company }) => {
       <button
         className="card-button"
         onClick={() => {
-          onClick(id);
+          onClick(id - 1);
         }}
       >
         View

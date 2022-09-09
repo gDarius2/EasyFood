@@ -13,12 +13,16 @@ export const Home = () => {
   console.log("restaurants ", restaurants);
   return (
     <div className="App">
-      <Header />
       <div className="home-container">
         <div className="info-text">
-          { restaurants && (<><p>Congratulations, you save 2kg of food this month!</p><p>
-            Displaying {restaurants.length} out of {restaurants.length}
-          </p></>)}
+          {restaurants && (
+            <>
+              <p>Congratulations, you save 2kg of food this month!</p>
+              <p>
+                Displaying {restaurants.length} out of {restaurants.length}
+              </p>
+            </>
+          )}
         </div>
         {isLoading && <div>Loading...</div>}
         <div className="cards-wrapper">
