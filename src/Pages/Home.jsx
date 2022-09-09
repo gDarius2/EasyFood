@@ -16,7 +16,7 @@ export const Home = () => {
       <Header />
       <div className="home-container">
         <div className="info-text">
-          { restaurants && (<><p>Congratulations, you save 2k of food this month!</p><p>
+          { restaurants && (<><p>Congratulations, you save 2kg of food this month!</p><p>
             Displaying {restaurants.length} out of {restaurants.length}
           </p></>)}
         </div>
