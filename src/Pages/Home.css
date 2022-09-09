@@ -1,4 +1,15 @@
 .cards-wrapper {
-    display: flex;
-    
+  display: flex;
+  margin-top: 10px;
+  gap: 15px;
+}
+.home-container {
+  margin: 50px 93px;
+}
+.info-text:first-child {
+  color: #adabab;
+}
+.info-text p:nth-child(1) {
+  color: #82af9b;
+  font-size: 18px;
 }

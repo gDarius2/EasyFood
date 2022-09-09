@@ -1,8 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./CompanyCard.css";
 
 const CompanyCard = ({ company }) => {
-  const { logo, name, address, offerHours } = company;
+  const { logo, name, address, offerHours, id } = company;
+  const navigate = useNavigate();
+  const onClick = (id) => {
+    navigate(`/restaurant/${id}`);
+  };
   return (
     <div className="card-container">
       <div className="card-image">
@@ -15,7 +20,14 @@ const CompanyCard = ({ company }) => {
         <span className="time">{offerHours}</span>
       </div>
       <p className="offers">Only a few offers left, hurry up!</p>
-      <button className="card-button">View</button>
+      <button
+        className="card-button"
+        onClick={() => {
+          onClick(id);
+        }}
+      >
+        View
+      </button>
     </div>
   );
 };
