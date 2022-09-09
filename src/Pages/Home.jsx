@@ -14,10 +14,20 @@ export const Home = () => {
   return (
     <div className="App">
       <Header />
-      {isLoading && <div>Loading...</div>}
-      <div className="cards-wrapper">
-        {restaurants &&
-          restaurants.map((restaurant) => <CompanyCard company={restaurant} />)}
+      <div className="home-container">
+        <div className="info-text">
+          <p>Congratulations, you save 2k of food this month!</p>
+          <p>
+            Displaying {restaurants.length} out of {restaurants.length}
+          </p>
+        </div>
+        {isLoading && <div>Loading...</div>}
+        <div className="cards-wrapper">
+          {restaurants &&
+            restaurants.map((restaurant) => (
+              <CompanyCard company={restaurant} />
+            ))}
+        </div>
       </div>
     </div>
   );
