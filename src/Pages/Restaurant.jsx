@@ -35,12 +35,15 @@ const Restaurant = () => {
         src={`/images/${restaurant && restaurant.logo}`}
         alt={restaurant && restaurant.name}
       />
-      <p>{restaurant && restaurant.offerHours}</p>
+      <p className="hours">
+        <strong>{restaurant && restaurant.offerHours}</strong>
+      </p>
+      <span>
+        <strong>Address: {restaurant && restaurant.address}</strong>
+      </span>
       <div className="products-container">
         {restaurant &&
           products.map((product) => {
-            const { name } = product;
-
             return <ProductCard product={product} />;
           })}
       </div>
