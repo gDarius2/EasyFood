@@ -1,16 +1,25 @@
-.card-container {
+.product-card-container {
   display: flex;
-  width: 500px;
+  width: 450px;
   height: 220px;
   box-shadow: 0px 0px 15px #0000001a;
   padding: 20px 15px;
+  margin: 20px;
 }
 
-.card-image {
-  width: 40%;
+.product-card-image {
+  width: 60%;
+  margin-right: 10px;
+      display: flex;
+    align-items: center;
+    flex: 0 1 100%;
 }
 
-.card-body {
+img {
+    max-width: fit-content;
+}
+
+.product-card-body {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -29,8 +38,8 @@
   background-color: #82af9b;
   border: none;
   border-radius: 10px;
-  margin-top: auto;
   align-self: center;
+  white-space: nowrap;
 }
 
 .product-price {
@@ -57,4 +66,11 @@
   border-top: 1px solid;
   border-color: #82af9b;
   transform: rotate(45deg);
+}
+
+.product-quantity,
+.product-weight,
+.product-ingredients,
+.product-price {
+    font-size: 15px;
 }

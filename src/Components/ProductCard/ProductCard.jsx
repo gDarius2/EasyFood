@@ -1,23 +1,25 @@
 import React from "react";
 import "./ProductCard.css";
 
-const ProductCard = () => {
+const ProductCard = ({ product }) => {
+  const { name, image, quantity, price, originalPrice, weight, ingredients } =
+    product;
   return (
-    <div className="card-container">
-      <div className="card-image">IMAGE</div>
-      <div className="card-body">
+    <div className="product-card-container">
+      <div className="product-card-image">
+        <img src={`/images/${image}`} alt={name} />
+      </div>
+      <div className="product-card-body">
         <div className="card-name-and-button">
-          <h2 className="product-name">Fillet-O-Fish</h2>
+          <h3 className="product-name">{name}</h3>
           <button className="add-to-cart-btn">Add to cart</button>
         </div>
-        <div className="product-quantity">Quantity: 1</div>
-        <div className="product-weight">Weight: 50g</div>
-        <div className="product-ingredients">
-          Ingredients: fish, bread, cheese
-        </div>
+        <div className="product-quantity">Quantity: {quantity}</div>
+        <div className="product-weight">Weight: {weight}</div>
+        <div className="product-ingredients">Ingredients: {ingredients}</div>
         <div className="product-price">
-          <span className="new-price">New price : 1$</span>
-          <span className="old-price"> 4$</span>
+          <span className="new-price">New price : {price}$</span>
+          <span className="old-price"> {originalPrice}$</span>
         </div>
       </div>
     </div>

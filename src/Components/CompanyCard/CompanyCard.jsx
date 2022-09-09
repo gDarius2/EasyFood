@@ -6,7 +6,7 @@ const CompanyCard = ({ company }) => {
   const { logo, name, address, offerHours, id } = company;
   const navigate = useNavigate();
   const onClick = (id) => {
-    navigate(`/restaurant/${id}`);
+    navigate(`/restaurants/${id}`);
   };
   return (
     <div className="card-container">
