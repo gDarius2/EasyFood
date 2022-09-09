@@ -6,6 +6,13 @@ export const Home = () => {
   return (
     <div className="App">
       <Header />
+      <div className="container">
+        <div>test</div>
+        <div>test</div>
+        <div>test</div>
+        <div>test</div>
+        <div>test</div> <div>test</div>
+      </div>
     </div>
   );
 };
