@@ -28,7 +28,7 @@ const Restaurant = () => {
           navigate("/");
         }}
       >
-        {"< Back"}
+        {"< Go back"}
       </button>
       <img
         className="company-img"
