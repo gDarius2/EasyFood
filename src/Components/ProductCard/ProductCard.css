@@ -15,8 +15,9 @@
     flex: 0 1 100%;
 }
 
-img {
+.product-image {
     max-width: fit-content;
+    min-width: 200px;
 }
 
 .product-card-body {
