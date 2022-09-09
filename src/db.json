@@ -53,7 +53,7 @@
             {
               "id": 1,
               "name": "Filet-O-Fish",
-              "image": "mcdonalds/mcdonalds-fish-fillet.png",
+              "image": "mcdonalds/mcdonals-fish-fillet.png",
               "description": "",
               "quantity": "2",
               "price": 2,
@@ -64,7 +64,7 @@
            {
               "id": 2,
               "name": "French Fries",
-              "image": "mcdonalds/mcdonalds-chicken-fries.png",
+              "image": "mcdonalds/mcdonalds-fries.png",
               "description": "",
               "quantity": "3",
               "price": 2,
